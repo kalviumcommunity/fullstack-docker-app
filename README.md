@@ -68,4 +68,4 @@ fullstack-docker-app/
 ├── docker-compose.yml
 ├── .env
 ├── README.md
-└── db-data/ (Docker volume for Postgres data)
+└── db-data/ (Docker volume for Postgres  data)
