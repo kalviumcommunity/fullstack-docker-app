@@ -37,3 +37,37 @@ Database: PostgreSQL
 
 Containerisation: Docker, Docker Compose
 
+
+# Mini Project - 3
+
+Mini Project 3 - Fullstack Docker App Setup
+Overview
+This project demonstrates:
+
+Persistent database storage using Docker volumes with PostgreSQL
+
+Docker container orchestration with docker-compose
+
+Debugging and inspecting running containers via Docker commands
+
+Application stability verified after container stop/start cycles
+
+Project Structure
+
+fullstack-docker-app/
+│
+├── backend/
+│   ├── Dockerfile
+│   ├── package.json 
+│   └── index.js
+│
+├── frontend/
+│   ├── Dockerfile
+│   ├── package.json
+│   └── src/
+│
+├── docker-compose.yml
+├── .env
+├── README.md
+└── db-data/ (Docker volume for Postgres  data)
+
